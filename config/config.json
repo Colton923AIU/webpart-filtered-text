@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "filtered-text-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/filteredText/FilteredTextWebPart.js",
+          "manifest": "./src/webparts/filteredText/FilteredTextWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FilteredTextWebPartStrings": "lib/webparts/filteredText/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Filtered Text",
+    "id": "e24235ad-982c-4765-8de5-ca3a38f05600",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Colton McClintock",
+      "websiteUrl": "coltonmcclintock.com",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Markdown Text with Filter Tags"
+      },
+      "longDescription": {
+        "default": "Markdown text that also considers custom tags, that are defined by the user."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Markdown Text Input",
+        "description": "Markdown text that also considers custom tags, that are defined by the user.",
+        "id": "fb2c134b-ee0f-4369-8351-f6ff2eb41bcc",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/filtered-text1.0.0.1.sppkg"
+  }
+}
